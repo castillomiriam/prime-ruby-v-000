@@ -4,7 +4,7 @@ def prime?(number)
     return false
   else
     [2,3,4,5,6].each do |num|
-      number % num == 0
+      number.modulo(num) == 0
       
   end
  end
