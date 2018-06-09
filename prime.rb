@@ -5,6 +5,6 @@ def prime?(number)
   elsif
     [2,3,4,5,6].each do |num|
   number %  == 0
-end
   end
+ end
 end
