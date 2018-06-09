@@ -2,7 +2,7 @@
 def prime?(number)
   if number <= 1
     return false
-  else
+  elsif
     # [2,3,4,5,6].each do |num|
       number.modulo(num) == 0
 
