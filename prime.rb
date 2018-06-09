@@ -6,6 +6,7 @@ def prime?(number)
     # [2,3,4,5,6].each do |num|
       number.modulo(2) == 0 || number.modulo(3) == 0
       return false
-  end
+  else
+    return true
  end
 end
